@@ -398,9 +398,7 @@ namespace TCPClient.Processor
                     }
                     m_curInventoryBuffer.dtTagTable.AcceptChanges();
                 }
-
-               
-
+                 
                 m_curInventoryBuffer.dtEndInventory = DateTime.Now;
                 RefreshInventoryReal(0x89);
             }
