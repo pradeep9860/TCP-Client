@@ -379,6 +379,8 @@ namespace TCPClient.Processor
                     row1[5] = "1";
                     row1[6] = strFreq;
 
+                    Console.WriteLine($" From A: \nstrPC: {strPC}, strEPC: {strEPC}, strRSSI: {strRSSI} strFreq: {strFreq}");
+
                     m_curInventoryBuffer.dtTagTable.Rows.Add(row1);
                     m_curInventoryBuffer.dtTagTable.AcceptChanges();
                 }
@@ -391,6 +393,8 @@ namespace TCPClient.Processor
                         dr[4] = strRSSI;
                         dr[5] = (Convert.ToInt32(dr[5]) + 1).ToString();
                         dr[6] = strFreq;
+
+                        Console.WriteLine($" From B: \nstrPC: {strPC}, strEPC: {strEPC}, strRSSI: {strRSSI} strFreq: {strFreq}");
 
                         dr.EndEdit();
                     }
