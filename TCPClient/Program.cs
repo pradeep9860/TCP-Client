@@ -15,8 +15,7 @@ namespace TCPClient
             var port = Convert.ToInt32(Console.ReadLine());
             if (Connect(ip, port))
             {
-                Console.WriteLine("Connected Successfully");
-                StackTrashParshedRecord();
+                Console.WriteLine("Connected Successfully"); 
             }
             else
             {
@@ -45,7 +44,7 @@ namespace TCPClient
                 {
                     string strLog = "Reader connected  " + ipAddress.ToString() + "@" + nPort.ToString();
                     Console.Write(strLog, 0);
-
+                    StackTrashParshedRecord(reader);
                     reader.AnalyCallback = AnalyData;
                     return true;
                 }
@@ -58,16 +57,14 @@ namespace TCPClient
             }
         }
 
-        private static void StackTrashParshedRecord()
+        private static void StackTrashParshedRecord(Reader.ReaderMethod reader)
         {
             Console.WriteLine("Data Receive Started.");
 
             var textRealRound = 1;
             var cbRealSession = false;
             var m_bContinue = false;
-
-            Reader.ReaderMethod reader = new Reader.ReaderMethod();
-
+             
             ReaderSetting m_curSetting = new ReaderSetting();
             InventoryBuffer m_curInventoryBuffer = new InventoryBuffer();
             OperateTagBuffer m_curOperateTagBuffer = new OperateTagBuffer();
