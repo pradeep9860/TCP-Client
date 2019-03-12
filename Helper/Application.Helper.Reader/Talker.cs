@@ -48,8 +48,8 @@ namespace Reader
         {
             while (true)
             {
-                System.Threading.Thread.Sleep(1000);
-                String responseData = String.Empty;
+                //System.Threading.Thread.Sleep(1000);
+                //String responseData = String.Empty;
                 try
                 {
                     byte[] btAryBuffer = new byte[4096];
@@ -65,9 +65,8 @@ namespace Reader
 
                         Array.Copy(btAryBuffer, btAryReceiveData, nLenRead);
 
-                        responseData = System.Text.Encoding.ASCII.GetString(btAryBuffer, 0, nLenRead);
-                        Console.WriteLine("Received: {0}", responseData);
-
+                        //responseData = System.Text.Encoding.ASCII.GetString(btAryBuffer, 0, nLenRead);
+                        //Console.WriteLine("Received: {0}", responseData); 
 
                         MessageReceived(btAryReceiveData);
                     }
@@ -79,7 +78,7 @@ namespace Reader
                     //// Read the first batch of the TcpServer response bytes.
                     //int nLenRead = streamToTran.Read(btAryBuffer, 0, btAryBuffer.Length);
                     //responseData = System.Text.Encoding.ASCII.GetString(btAryBuffer, 0, nLenRead);
-                    Console.WriteLine("Received: {0}", responseData);
+                    //Console.WriteLine("Received: {0}", responseData);
                 }
                 catch (System.Exception ex)
                 {

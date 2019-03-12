@@ -73,7 +73,7 @@ namespace TCPClient.Processor
 
         private void StackTrashParshedRecord()
         {
-            Console.WriteLine("Data Receive Started.");
+            //Console.WriteLine("Data Receive Started.");
             try
             {
                 m_curInventoryBuffer.ClearInventoryPar();
@@ -154,8 +154,8 @@ namespace TCPClient.Processor
         private void AnalyData(Reader.MessageTran msgTran)
         {
             Console.WriteLine("AnalyData started");
-            Console.WriteLine("AnalyData Packate type : ", msgTran.PacketType);
-            Console.WriteLine("AnalyData Cmd type : ", msgTran.Cmd);
+            Console.WriteLine("AnalyData Packate type : " + msgTran.PacketType.ToString());
+            Console.WriteLine("AnalyData Cmd type : " + msgTran.Cmd.ToString());
             if (msgTran.PacketType != 0xA0)
             {
                 return;
