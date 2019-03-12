@@ -18,11 +18,11 @@ namespace TCPClient
             InventoryProcessor inventoryProcessor = new InventoryProcessor(); 
             if (inventoryProcessor.Connect(ip, port))
             {
-                Console.WriteLine("Connected Successfully"); 
+                Console.WriteLine("\nConnected Successfully"); 
             }
             else
             {
-                Console.WriteLine("Error in Connection");
+                Console.WriteLine("\nError in Connection");
             }
 
             Console.ReadLine();
