@@ -153,9 +153,9 @@ namespace TCPClient.Processor
 
         private void AnalyData(Reader.MessageTran msgTran)
         {
-            Console.WriteLine("AnalyData started");
-            Console.WriteLine("AnalyData Packate type : " + msgTran.PacketType.ToString());
-            Console.WriteLine("AnalyData Cmd type : " + msgTran.Cmd.ToString());
+            //Console.WriteLine("AnalyData started");
+            //Console.WriteLine("AnalyData Packate type : " + msgTran.PacketType.ToString());
+            //Console.WriteLine("AnalyData Cmd type : " + msgTran.Cmd.ToString());
             if (msgTran.PacketType != 0xA0)
             {
                 return;
