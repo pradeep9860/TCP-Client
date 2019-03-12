@@ -1,0 +1,14 @@
+E:\MyProj\TCPClientForSmartFridge\TCPClient\TCPClient\bin\Debug\netcoreapp2.2\TCPClient.deps.json
+E:\MyProj\TCPClientForSmartFridge\TCPClient\TCPClient\bin\Debug\netcoreapp2.2\TCPClient.runtimeconfig.json
+E:\MyProj\TCPClientForSmartFridge\TCPClient\TCPClient\bin\Debug\netcoreapp2.2\TCPClient.runtimeconfig.dev.json
+E:\MyProj\TCPClientForSmartFridge\TCPClient\TCPClient\bin\Debug\netcoreapp2.2\TCPClient.dll
+E:\MyProj\TCPClientForSmartFridge\TCPClient\TCPClient\bin\Debug\netcoreapp2.2\TCPClient.pdb
+E:\MyProj\TCPClientForSmartFridge\TCPClient\TCPClient\bin\Debug\netcoreapp2.2\Application.Helper.Reader.dll
+E:\MyProj\TCPClientForSmartFridge\TCPClient\TCPClient\bin\Debug\netcoreapp2.2\Application.Helper.Reader.pdb
+E:\MyProj\TCPClientForSmartFridge\TCPClient\TCPClient\obj\Debug\netcoreapp2.2\TCPClient.csprojAssemblyReference.cache
+E:\MyProj\TCPClientForSmartFridge\TCPClient\TCPClient\obj\Debug\netcoreapp2.2\TCPClient.csproj.CoreCompileInputs.cache
+E:\MyProj\TCPClientForSmartFridge\TCPClient\TCPClient\obj\Debug\netcoreapp2.2\TCPClient.AssemblyInfoInputs.cache
+E:\MyProj\TCPClientForSmartFridge\TCPClient\TCPClient\obj\Debug\netcoreapp2.2\TCPClient.AssemblyInfo.cs
+E:\MyProj\TCPClientForSmartFridge\TCPClient\TCPClient\obj\Debug\netcoreapp2.2\TCPClient.csproj.CopyComplete
+E:\MyProj\TCPClientForSmartFridge\TCPClient\TCPClient\obj\Debug\netcoreapp2.2\TCPClient.dll
+E:\MyProj\TCPClientForSmartFridge\TCPClient\TCPClient\obj\Debug\netcoreapp2.2\TCPClient.pdb

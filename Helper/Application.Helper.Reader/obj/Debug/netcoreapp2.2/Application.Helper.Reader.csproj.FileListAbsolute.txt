@@ -1,0 +1,8 @@
+E:\MyProj\TCPClientForSmartFridge\TCPClient\Helper\Application.Helper.Reader\bin\Debug\netcoreapp2.2\Application.Helper.Reader.deps.json
+E:\MyProj\TCPClientForSmartFridge\TCPClient\Helper\Application.Helper.Reader\bin\Debug\netcoreapp2.2\Application.Helper.Reader.dll
+E:\MyProj\TCPClientForSmartFridge\TCPClient\Helper\Application.Helper.Reader\bin\Debug\netcoreapp2.2\Application.Helper.Reader.pdb
+E:\MyProj\TCPClientForSmartFridge\TCPClient\Helper\Application.Helper.Reader\obj\Debug\netcoreapp2.2\Application.Helper.Reader.csproj.CoreCompileInputs.cache
+E:\MyProj\TCPClientForSmartFridge\TCPClient\Helper\Application.Helper.Reader\obj\Debug\netcoreapp2.2\Application.Helper.Reader.AssemblyInfoInputs.cache
+E:\MyProj\TCPClientForSmartFridge\TCPClient\Helper\Application.Helper.Reader\obj\Debug\netcoreapp2.2\Application.Helper.Reader.AssemblyInfo.cs
+E:\MyProj\TCPClientForSmartFridge\TCPClient\Helper\Application.Helper.Reader\obj\Debug\netcoreapp2.2\Application.Helper.Reader.dll
+E:\MyProj\TCPClientForSmartFridge\TCPClient\Helper\Application.Helper.Reader\obj\Debug\netcoreapp2.2\Application.Helper.Reader.pdb
