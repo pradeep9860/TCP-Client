@@ -23,8 +23,8 @@ namespace TCPClient.Processor
         //for antena setup 
         private bool cbRealWorkant1 = true;
         private bool cbRealWorkant2 = true;
-        private bool cbRealWorkant3 = true;
-        private bool cbRealWorkant4 = true;
+        private bool cbRealWorkant3 = false;
+        private bool cbRealWorkant4 = false;
 
         private bool m_bInventory = false;
 
@@ -298,7 +298,7 @@ namespace TCPClient.Processor
 
         private void ProcessInventoryReal(Reader.MessageTran msgTran)
         {
-            Console.WriteLine("ProcessInventoryReal started");  
+            //Console.WriteLine("ProcessInventoryReal started");  
              
             string strCmd = "";
             if (msgTran.Cmd == 0x89)
@@ -392,14 +392,14 @@ namespace TCPClient.Processor
 
                         dr[4] = strRSSI;
                         dr[5] = (Convert.ToInt32(dr[5]) + 1).ToString();
-                        dr[6] = strFreq;
-
-                        Console.WriteLine($" From B: \nstrPC: {strPC}, strEPC: {strEPC}, strRSSI: {strRSSI} strFreq: {strFreq}");
-
+                        dr[6] = strFreq; 
+                         
                         dr.EndEdit();
                     }
                     m_curInventoryBuffer.dtTagTable.AcceptChanges();
                 }
+
+                Console.WriteLine($" From B: \nstrPC: {strPC}, strEPC: {strEPC}, strRSSI: {strRSSI} strFreq: {strFreq}");
 
                 m_curInventoryBuffer.dtEndInventory = DateTime.Now;
                 RefreshInventoryReal(0x89);
