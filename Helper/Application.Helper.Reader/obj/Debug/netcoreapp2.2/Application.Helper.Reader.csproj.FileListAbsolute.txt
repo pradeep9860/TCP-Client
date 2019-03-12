@@ -6,3 +6,4 @@ E:\MyProj\TCPClientForSmartFridge\TCPClient\Helper\Application.Helper.Reader\obj
 E:\MyProj\TCPClientForSmartFridge\TCPClient\Helper\Application.Helper.Reader\obj\Debug\netcoreapp2.2\Application.Helper.Reader.AssemblyInfo.cs
 E:\MyProj\TCPClientForSmartFridge\TCPClient\Helper\Application.Helper.Reader\obj\Debug\netcoreapp2.2\Application.Helper.Reader.dll
 E:\MyProj\TCPClientForSmartFridge\TCPClient\Helper\Application.Helper.Reader\obj\Debug\netcoreapp2.2\Application.Helper.Reader.pdb
+E:\MyProj\TCPClientForSmartFridge\TCPClient\Helper\Application.Helper.Reader\obj\Debug\netcoreapp2.2\Application.Helper.Reader.csprojAssemblyReference.cache
